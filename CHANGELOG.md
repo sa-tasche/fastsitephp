@@ -2,204 +2,372 @@
 
 FastSitePHP uses [Semantic Versioning](https://docs.npmjs.com/about-semantic-versioning). This change log includes Framework release history and new website features or major changes.
 
-## 1.4.4 (December 3, 2020)
+## [Unreleased](https://github.com/sa-tasche/fastsitephp/compare/1.4.4...HEAD)
 
-* Update `cacert.pem` to the latest version which is used by `\FastSitePHP\Net\HttpClient` on Windows and Mac Computers.
-* Confirmed that FastSitePHP works with the final release of `PHP 8.0.0`. Previously it was tested and updated for Alpha builds. No Framework changes had to be made with this release, however some unit tests had to be updated.
+### Added
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+### Changed
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+### Deprecated
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+### Removed
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+### Fixed
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+### Security
+
+*   **BREAKING** 📄 Update Site Text. [23cebba](https://github.com/sa-tasche/fastsitephp/commit/23cebba09247bf5f6444ab712859a2be1aa45495) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [f02700a](https://github.com/sa-tasche/fastsitephp/commit/f02700a350a276eeccbe96e45dd93607a56b2654) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Add Support for PHP 8 Beta 1. [e6d2e22](https://github.com/sa-tasche/fastsitephp/commit/e6d2e226382b09b6e0bd38bc7ee253084cba6657) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [17a9ffa](https://github.com/sa-tasche/fastsitephp/commit/17a9ffabbd08d78f4ff0bf51cd102cf612277cea) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.0. [eafa542](https://github.com/sa-tasche/fastsitephp/commit/eafa542a4a6dbe5e8eb0d0f92f21d7dfd9b4249e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release 1.4.0. [0fe65d3](https://github.com/sa-tasche/fastsitephp/commit/0fe65d31cc6e66552e9cc43bb22e7c6cb88a417f) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update git file after release. [b283e3b](https://github.com/sa-tasche/fastsitephp/commit/b283e3b84ddd2498c310c37ef3e83642c67e80df) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Install Script Update. [d394bce](https://github.com/sa-tasche/fastsitephp/commit/d394bce9552af690650914c494b65862831f3eed) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Task List. [8cb85e5](https://github.com/sa-tasche/fastsitephp/commit/8cb85e5edaee09d565a8dd6e8a81857682c7e467) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ⚙️ Update Webserver Install Script. [43f191a](https://github.com/sa-tasche/fastsitephp/commit/43f191a4db700f8ad0153bdb3f32a83cf11d44cb) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Playground JS update for Site Key in Template. [56763b7](https://github.com/sa-tasche/fastsitephp/commit/56763b7ce9c88a414694094b2dc34452e7e6a620) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Site Updates for Home Page Animation. [9c886f1](https://github.com/sa-tasche/fastsitephp/commit/9c886f1a3197c3d83f3ab6ca71d6ad279020e9ae) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [2e6b329](https://github.com/sa-tasche/fastsitephp/commit/2e6b3299b37e85649d8721c25715519953f861c8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✨ Updates for Site Home Page Animation. [24e4d66](https://github.com/sa-tasche/fastsitephp/commit/24e4d66b26acdee6ce887d17ff39dd04f0f63624) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 Update Animation on Home Page. [690d6de](https://github.com/sa-tasche/fastsitephp/commit/690d6de8c33707629b9aa34d7274ed9dd3fec5b1) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ©️ Updated copyright for 2021. [8e009ee](https://github.com/sa-tasche/fastsitephp/commit/8e009ee612acd376ff908906553984013136a08e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🎨 CSS Site Updates for Mac and Doc Update. [03fea2f](https://github.com/sa-tasche/fastsitephp/commit/03fea2f90f0754792de1ca6e221fe09de5142a30) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [656fff2](https://github.com/sa-tasche/fastsitephp/commit/656fff2250c7d3dde4be4b4ebbe0173f11c36a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [d9b2676](https://github.com/sa-tasche/fastsitephp/commit/d9b2676793f457ad29e908c56a8d3795cc5b74f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.4. [fcb3cb0](https://github.com/sa-tasche/fastsitephp/commit/fcb3cb00735c10810a1d6a0f8497bbfd7793ca26) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Updates Tests and Docs for PHP 8. [2c61708](https://github.com/sa-tasche/fastsitephp/commit/2c61708bae728b73469aa224109ce3d309951ede) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update Bash Script to use PHP 8.0. [d6e4638](https://github.com/sa-tasche/fastsitephp/commit/d6e46381afcb3b3bd4c048b423a5e6efc580fb4a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix code comment typos. [9ee4fcc](https://github.com/sa-tasche/fastsitephp/commit/9ee4fcc1837c20799f67e62cb19bf9a9dd2c2ed9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ☑️ Update Unit Tests for PHP 8.0.0. [64b8c94](https://github.com/sa-tasche/fastsitephp/commit/64b8c9405197f9020a5aee7c9d4434f2ab7a7426) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** ✅ Unit Testing and Docs for PHP 8.0. [4205974](https://github.com/sa-tasche/fastsitephp/commit/4205974e14077fac442266e1d20fe02a871213b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [76d89cd](https://github.com/sa-tasche/fastsitephp/commit/76d89cd64ec0623b76d49350e45409abccf802cf) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Update Docs. [0437796](https://github.com/sa-tasche/fastsitephp/commit/0437796b8ea872286f72cb241a28b01eaf957b57) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [fd4e11b](https://github.com/sa-tasche/fastsitephp/commit/fd4e11bc740edf2530baa15a0a4a9298216d2046) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for release. [1a1f9f9](https://github.com/sa-tasche/fastsitephp/commit/1a1f9f912fc4c1e10980cd20ec37de2b9c2e4a86) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🐛 Fix for local PHP built-in routering issue. [c41c55b](https://github.com/sa-tasche/fastsitephp/commit/c41c55b099c90804b9f3b6a81c8a13f0920c8964) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Fix Typos and Update Docs. [63bbc8c](https://github.com/sa-tasche/fastsitephp/commit/63bbc8c97f593883bf920de2f77157dd980eddbc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [836aed2](https://github.com/sa-tasche/fastsitephp/commit/836aed26c037136d3dead7f27032f48e462ba1c2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [739ffaf](https://github.com/sa-tasche/fastsitephp/commit/739ffaf0f397a5be2b60e001cf94326bbdd579a9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Code comments. [4a84aef](https://github.com/sa-tasche/fastsitephp/commit/4a84aef8dbce537694e1e607b2cc780eefbd3a9a) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Author HTTPS Link Update. [6189c76](https://github.com/sa-tasche/fastsitephp/commit/6189c7660ff37b90772632c1ba26e5d47f29d937) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [d780580](https://github.com/sa-tasche/fastsitephp/commit/d780580890712c8ed45d2f3b508994d1d993b2d9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [5a26a87](https://github.com/sa-tasche/fastsitephp/commit/5a26a872835275a1b3b473b63fd2f1267b7b864e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes after release. [999750c](https://github.com/sa-tasche/fastsitephp/commit/999750cc68ec56592b365cf429c5624007a2da27) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Update gitattributes for new release. [822aaae](https://github.com/sa-tasche/fastsitephp/commit/822aaaeae666af0e3b5c67a133b65c14221a2a48) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🚀 Release 1.4.1 - Update for Local Development. [4068ca2](https://github.com/sa-tasche/fastsitephp/commit/4068ca2455d727305adee50b0f3ae664a46fdc42) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Readme update. [179fff7](https://github.com/sa-tasche/fastsitephp/commit/179fff7686bffd415db0f8084ea11c14f337fbc9) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Create Starter Site Bash Script Update. [829f2e6](https://github.com/sa-tasche/fastsitephp/commit/829f2e616b81c6cba012cc3e8922363230c6640e) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🌐 Link Updates for rel=noopener. [7867a17](https://github.com/sa-tasche/fastsitephp/commit/7867a17a5c08c0c4b37d7099b8e1c63d9bb669b2) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [1eef06d](https://github.com/sa-tasche/fastsitephp/commit/1eef06d6afb736982528b622a0fe7255c71e70f7) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [fee7a19](https://github.com/sa-tasche/fastsitephp/commit/fee7a192582ce71b7381acc90b8a699610fa7ac8) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [800c39e](https://github.com/sa-tasche/fastsitephp/commit/800c39ebf96968c423889a9dd9d5c29aae82bb6d) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Starter Site Bash Support for Ubuntu 20.04 LTS. [f915d28](https://github.com/sa-tasche/fastsitephp/commit/f915d28fc78e1dab39dd14a7edda75cbc0c652ab) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [dc69f73](https://github.com/sa-tasche/fastsitephp/commit/dc69f736445cda309d3f6bc6d94fac62f9dba6fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Documentation updates. [402f7ee](https://github.com/sa-tasche/fastsitephp/commit/402f7ee5d67850a4fd970cecc6b4ed90cc9f5cb0) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 🤖 Bash Script Code Comments. [c08b32e](https://github.com/sa-tasche/fastsitephp/commit/c08b32e77590b4aa51c5849186c11931b697ea34) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 API Docs Update. [183638d](https://github.com/sa-tasche/fastsitephp/commit/183638d202739b60dafa3cb4335d418406aec5fc) by [@ConradSollitt](https://github.com/ConradSollitt)
+*   **BREAKING** 📄 Task list update. [70ea39b](https://github.com/sa-tasche/fastsitephp/commit/70ea39b58cc2642ea11028beb66a559ef4209345) by [@ConradSollitt](https://github.com/ConradSollitt)
+
+## 1.4.4 (December 3, 2020)
 
 ## 1.4.3 (November 24, 2020)
 
-* Fix for `Application->requestedPath()` so that it strips the Query String if using the PHP Built-in Server with all resources using a fallback `index.php` or other PHP file. This was not a common scenario for most PHP development and didn't affect any production servers.
-
 ## 1.4.2 (September 3, 2020)
-
-* No changes however `export-ignore` was not working properly from `.gitattributes` for the previous release
 
 ## 1.4.1 (September 3, 2020)
 
-* Minor update for `\FastSitePHP\Application->requestedPath()` to return the requested path of valid static files when using the PHP Built-In Server for local development
-  * This was found to affect very specific setups, for example a root level `index.php` routing file with a `public` sub-directory and `node_modules` at the root level.
-
 ## 1.4.0 (August 6, 2020)
-
-* Added Support so Cookies can use the `SameSite = 'Strict|Lax|None'` Attribute
-  * Requires `PHP 7.3` or Higher
-  * Affects the following functions which make a call to `setcookie()` using the new `$options` array parameter:
-    * `\FastSitePHP\Application->cookie($name, $value, array $options)`
-    * `\FastSitePHP\Application->clearCookie($name, array $options)`
-    * `\FastSitePHP\Web\Response->cookie($name, $value, array $options)`
-    * `\FastSitePHP\Web\Response->clearCookie($name, array $options)`
-    * `\FastSitePHP\Web\Response->signedCookie($name, $value, $expire_time, array $options)`
-    * `\FastSitePHP\Web\Response->jwtCookie($name, $value, $expire_time, array $options)`
-    * `\FastSitePHP\Web\Response->encryptedCookie($name, $value, array $options)`
 
 ## 1.3.1 (July 15, 2020)
 
-* Updates for `\FastSitePHP\Net\HttpClient`
-  * Fix so that `$response->json` is populated when the a case-insensitve header is used `content-type`, `CONTENT-TYPE`, etc is used starting with the value `application/json`. Previously a case-senstive header was required `Content-Type`.
-  * Updated the bundled `cacert.pem` from version `2019-10-16` to `2020-06-24`.
-* Updated `scripts/install.php` to also download and use latest version of `cacert.pem`.
-
 ## 1.3.0 (July 14, 2020)
-
-* Added support for PHP 8 Alpha 2
-  * Overall most features worked out of the box with PHP 8 however a few minor changes were needed for full support and a number of unit tests had to be updated
-  * Both 64-Bit and 32-Bit releases have been tested and passed all Unit Tests
-  * Updates for PHP 8 do not affect previous versions of PHP so FastSitePHP now works with `PHP 5.3` to `PHP 8.0 (Alpha 2)` and all versions in-between.
-  * Additional changes may be needed because PHP 8 is not yet finalized
-* Added features for classes in the `\FastSitePHP\FileSystem` namespace:
-  * Added new function `all()` to `\FastSitePHP\FileSystem\Search`
-  * Added an optional `$type` parameter to `\FastSitePHP\FileSystem\Security::dirContainsPath($dir, $path, $type = 'file')` so that `dirContainsPath()` can be used with both files and directories. Previously this function only worked with files. Options for `$type` are [`file`, `dir`, `all`].
-  * Added validation to check for empty strings for the `$dir_name` parameter in `\FastSitePHP\FileSystem\Security::dirContainsDir($root_dir, $dir_name)`. Previously the function would have returned `true`; now it returns `false` which is the intended behavior.
-  * Example usage:
-  ~~~php
-  // Security check against Path Traversal Attacks
-  if (!Security::dirContainsPath($root_dir, $user_dir, 'dir')) {
-      return $app->pageNotFound();
-  }
-
-  // Get list of all directories and files directly under the user dir
-  $search = Search();
-  $full_path = $root_dir . $user_dir;
-  list($dirs, $files) = $search->dir($full_path)->all();
-  ~~~
-* Updates to simplify the rules for linting using `phpstan` https://github.com/phpstan/phpstan
-  * Thanks **Ondřej Mirtes** https://github.com/ondrejmirtes (Author of phpstan) and **Viktor Szépe** https://github.com/szepeviktor for helping out.
-  * Updates are in pull requests:
-    * https://github.com/fastsitephp/fastsitephp/pull/20
-    * https://github.com/fastsitephp/fastsitephp/pull/21
-  * The updates were minimal and required no changes to code logic and unit tests
-  * PHPStan version 0.12.29 has been added to [composer.json](composer.json)
-* Updated all Framework code under `src` to validate with https://github.com/FriendsOfPHP/PHP-CS-Fixer
-  * This had no impact on code logic or any actual source code rather it updated some minor formatting issues such as replacing `function __construct` with `public function __construct` or `else if` with `elseif`.
-  * To use download `php-cs-fixer-v2.phar` then run: `php php-cs-fixer-v2.phar fix src`
-* Added support for the Mac-only development environment Laravel Valet
-  * Related to issue https://github.com/fastsitephp/starter-site/issues/4
-  * **Thanks Valentin Ursuleac** https://github.com/ursuleacv for finding and opening this issue!
-  * This has no effect on the main FastSitePHP framework, rather the default development `index.php` file and website `app.php` required some updates in order to run correctly if downloading the main repository.
 
 ## Bash Encryption Script (June 28, 2020)
 
-* The Bash Script `encrypt.sh` has been updated to allow for a default file extension `.enc` and to not require the output file parameter `-o` along with a few other minor improvements such as status output during encryption and description.
-  * The bash script is not included with the FastSitePHP Framework, however it is included with the main repository and was created for compatibility with the PHP class `FastSitePHP\Security\Crypto\FileEncryption`
-  * https://www.fastsitephp.com/en/documents/file-encryption-bash
-
 ## Website (March 27, 2020)
-
-* **Thanks Li Jun Hui** for helping with Chinese translations! https://github.com/lijunhuippl
 
 ## 1.2.2 (February 26, 2020)
 
-* Update `I18N::langFile()` for a minor edge case bug related to 404 redirect on missing language. It was found to affect local development with the PHP built-in server when a single `index.php` file is used for routing.
-
 ## 1.2.1 (January 27, 2020)
-
-* Improved Framework support with FreeBSD
-  * `FileEncryption` Class now has improved support for large file encryption (2+ GB) on a basic FreeBSD Server Setup
-  * Additional documentation on FreeBSD Server Setup: https://www.fastsitephp.com/en/documents/install-php-on-linux
-* Fixed a bug with `FastSitePHP\Encoding\Json::encode()` that prevented it from working when using PHP `5.3`. This did not affect any other version of PHP.
-
-* **Thanks Nicolas CARPi for opening the issue related to the following items** https://github.com/NicolasCARPi
-* Adding support for PHP linting with https://github.com/phpstan/phpstan
-  * For info on how to run `phpstan` see comments in file: https://github.com/fastsitephp/fastsitephp/blob/master/phpstan.neon
-* Updated `README.md` file with warning about using older versions of PHP. Currently FastSitePHP supports older versions of PHP that are widely used by not considered secure.
-* Updated `README.md` with a brief description of how Unit Testing works.
 
 ## 1.2.0 (January 10, 2020)
 
-* The core `Application` object now handles route `filter` functions that return a `Response` object instead of a `bool`. This allows for easier unit testing of custom middleware. See code example below.
-* Added function `Request->bearerToken()`
-* Added function `I18N::hasLang($lang)`
-* Updated function `I18N::getUserDefaultLang()` to validate the language from malicious user attempts to attack a site from the 'Accept-Language' request header. This is simply an additional safety check as the key validation is handled by `Security::dirContainsFile` in the function.
-
-~~~php
-// Example route
-$app->get('/:lang/auth-demo', 'AuthDemo')->filter('Auth.hasAccess');
-
-// Prior to this change an Auth Middleware Object would have likely called [exit()]
-class Auth
-{
-    public function hasAccess(Application $app)
-    {
-        $res = new Response($app)
-        $res
-            ->statusCode(401)
-            ->header('WWW-Authenticate', 'Bearer')
-            ->json(['success' => false, 'authRequired' => true])
-            ->send();
-        exit();
-    }
-}
-
-// Now the Middleware Object can return a Response Object.
-// This allows for easier CLI testing of an Apps Middleware.
-class Auth
-{
-    public function hasAccess(Application $app)
-    {
-        return (new Response($app))
-            ->statusCode(401)
-            ->header('WWW-Authenticate', 'Bearer')
-            ->json(['success' => false, 'authRequired' => true]);
-    }
-}
-~~~
-
 ## 1.1.3 (December 24, 2019)
-
-* Updated `Application->rootUrl()` and `AppMin->rootUrl()` for edge case error when using built-in PHP Server
-  * Error did not affect Apache, nginx, IIS, or most PHP built-in server setups
-  * When PHP built-in server with fallback 'php -S localhost:3000 website/public/index.php' and code similar to the example below the a site would redirect with 2 forward slashes (example: `http://localhost:3000//en/`).
-  * The previous work-around was to use `$app->redirect('/' . I18N::getUserDefaultLang() . '/');`
-  * The below code now works correctly in all tested environments
-
-~~~php
-$app->get('/', function() use ($app) {
-    $app->redirect($app->rootUrl() . I18N::getUserDefaultLang() . '/');
-});
-~~~
 
 ## Website (December 24, 2019)
 
-* Spanish `es` translations complete for all JSON files on the main site
-  * https://fastsitephp.com/es/
-  * **Thanks Tibaldo Pirela Reyes** for helping with translations! https://github.com/tpirelar
-
 ## 1.1.2 (December 16, 2019)
-
-* Updates for easier nginx support using a basic nginx install
-  * Change affected `Application->requestedPath()` and `AppMin->requestedPath()` so handle empty string "" for PATH_INFO
 
 ## Website (December 12, 2019)
 
-* Created a script that allows easy web server setup with Apache, PHP, and the FastSitePHP Starter Site
-
-~~~bash
-wget https://www.fastsitephp.com/downloads/create-fast-site.sh
-sudo bash create-fast-site.sh
-~~~
-
 ## 1.1.1 (December 12, 2019)
-
-* Brazilian Portuguese `pt-BR` language support added for `L10N` - formatting dates, times, and numbers
-  * https://www.fastsitephp.com/en/api/Lang_L10N
-  * Previously `pt-BR` would have fallen back to `pt`
-  * **Thanks Marcelo dos Santos Mafra** for finding and providing this! https://github.com/msmafra
-* Class `Lang\L10N`
-  * https://www.fastsitephp.com/en/api/Lang_L10N
-  * Fixed bug with `Lang\L10N` class so that a 404 page is correctly sent by default
-  * **Thanks eGirlAsm** for finding the bug! https://github.com/eGirlAsm
-  * Added link updates for unicode-cldr in the header docs
-* Changed default 404 page title message from 'Page Not Found' to '404 - Page Not Found' for clarity - Property [$app->not_found_page_title]
-  * https://www.fastsitephp.com/en/api/Application
 
 ## 1.1.0 (December 10, 2019)
 
-* New Class `FastSitePHP\FileSystem\Sync`
-* Class `FastSitePHP\Lang\I18N`
-  * Added new static function: `I18N::getUserDefaultLang()`
-  * Fixed edge case error when multiple calls are made to `I18N::langFile()` and a file is missing after the first call.
-
 ## 1.0.0 (November 14, 2019)
-
-* Initial public release
